@@ -1,0 +1,82 @@
+street-view.py 결과:(이미지 제외)
+
+Training Set (32, 32, 3, 73257) (73257, 1)
+Test Set (32, 32, 3, 26032) (26032, 1)
+Training Set (73257, 32, 32, 3)
+Test Set (26032, 32, 32, 3)
+
+Total Number of Images 99289
+[ 1  2  3  4  5  6  7  8  9 10]
+[0 1 2 3 4 5 6 7 8 9]
+Training Set (63733, 32, 32, 1)
+Validation Set (9524, 32, 32, 1)
+Test Set (26032, 32, 32, 1)
+
+
+Training set (63733, 10)
+Validation set (9524, 10)
+Test set (26032, 10)
+
+Process finished with exit code 0
+
+street-view2.py 결과:(이미지 제외)
+
+Training set (63733, 32, 32, 1) (63733, 10)
+Validation set (9524, 32, 32, 1) (9524, 10)
+Test set (26032, 32, 32, 1) (26032, 10)
+Training .........
+
+Epoch  1 : ........ 
+
+Step: 0 ..... 
+Mini-Batch Loss   :  2.3113487
+Mini-Batch Accuracy : 12.109375 %
+Validation Accuracy : 18.99412011759765 %
+
+Step: 40 ..... 
+Mini-Batch Loss   :  1.1052315
+Mini-Batch Accuracy : 66.015625 %
+Validation Accuracy : 70.64258714825704 %
+
+Step: 80 ..... 
+Mini-Batch Loss   :  0.66705847
+Mini-Batch Accuracy : 78.3203125 %
+Validation Accuracy : 82.02435951280974 %
+
+Step: 120 ..... 
+Mini-Batch Loss   :  0.53339976
+Mini-Batch Accuracy : 83.59375 %
+Validation Accuracy : 84.51280974380512 %
+
+Epoch 1 completed out of  2
+Training .........
+
+Epoch  2 : ........ 
+
+Step: 0 ..... 
+Mini-Batch Loss   :  0.5392196
+Mini-Batch Accuracy : 86.71875 %
+Validation Accuracy : 84.15581688366233 %
+
+Step: 40 ..... 
+Mini-Batch Loss   :  0.51379025
+Mini-Batch Accuracy : 86.1328125 %
+Validation Accuracy : 85.48929021419572 %
+
+Step: 80 ..... 
+Mini-Batch Loss   :  0.45588732
+Mini-Batch Accuracy : 86.5234375 %
+Validation Accuracy : 86.65476690466191 %
+
+Step: 120 ..... 
+Mini-Batch Loss   :  0.4239996
+Mini-Batch Accuracy : 86.9140625 %
+Validation Accuracy : 87.6837463250735 %
+
+Epoch 2 completed out of  2
+Test Accuracy : 86.65104486785495 %
+Time usage: 0:04:53
+
+Completed
+
+Process finished with exit code 0

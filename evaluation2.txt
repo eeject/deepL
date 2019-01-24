@@ -1,0 +1,14 @@
+
+Using TensorFlow backend.
+
+Training stage
+Train on 25000 samples, validate on 25000 samples
+Epoch 1/3
+ - 104s - loss: 0.4603 - acc: 0.7834 - val_loss: 0.3862 - val_acc: 0.8337
+Epoch 2/3
+ - 98s - loss: 0.3021 - acc: 0.8760 - val_loss: 0.3755 - val_acc: 0.8339
+Epoch 3/3
+ - 99s - loss: 0.2210 - acc: 0.9138 - val_loss: 0.4094 - val_acc: 0.8269
+Test performance: accuracy=0.82692, loss=0.40936359088897706
+
+Process finished with exit code 0
